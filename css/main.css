@@ -8,26 +8,17 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  padding: 0;
   text-align: center;
-  list-style-type: none;
-}
-
-div:nth-child(2) a {
-  text-align: center;
+  margin: .5em;
+  padding: 0;
 }
 
 .btn {
   display: inline-block;
   text-decoration: none;
-  list-style-type: none;
+  text-align: center;
   margin: .6rem;
-  padding: .4em .75em .3em;
+  padding: .4em .75em;
   border-radius: 8px;
   border: 3px;
   font-size: 1.125em;
@@ -62,6 +53,10 @@ div:nth-child(2) a {
 
 .btn-warning {
   background-color: #f33;
+  color: #fff;
+}
+
+.btn:hover {
   color: #fff;
 }
 
