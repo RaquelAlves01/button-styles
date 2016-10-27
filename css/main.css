@@ -12,14 +12,14 @@ body {
   padding: 0;
 }
 
-div {
+ul {
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 
-div ul {
-  padding: 0;
-  list-style-type: none;
+div:nth-child(2) a {
+  text-align: center;
 }
 div ul li a {
   display: inline-block;
