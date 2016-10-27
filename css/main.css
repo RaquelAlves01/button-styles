@@ -29,8 +29,8 @@ div:nth-child(2) a {
   margin: .6rem;
   padding: .4em .75em .3em;
   border-radius: 8px;
-.btn {
-  font-size: 1.125rem;
+  border: 3px;
+  font-size: 1.125em;
 }
 
 .btn-big {
