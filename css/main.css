@@ -51,8 +51,12 @@ div:nth-child(2) a {
   color: #fff;
 }
 
-.btn-ghost {
+.btn-border {
   border: 3px solid #000;
+}
+
+.btn-ghost {
+  background-color: #fff;
   color: #000;
 }
 
